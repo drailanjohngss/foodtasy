@@ -4,8 +4,7 @@
 	"scripts": {
 		"client": "cd client && npm run start",
 		"server": "nodemon server.js",
-		"foodtasy":
-			"concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+		"foodtasy": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
 	},
 	"dependencies": {
 		"express": "^4.16.2"
